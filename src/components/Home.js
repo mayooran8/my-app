@@ -1,4 +1,6 @@
 import React from "react";
+// CURRENT CODE (causing error):
+import Registration from './Home';
 import { Link } from "react-router-dom";
 
 function Home() {

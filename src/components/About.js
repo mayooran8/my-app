@@ -1,4 +1,6 @@
 import React from 'react';
+// CURRENT CODE (causing error):
+import Registration from './About';
 function About() {
 return (
 <div className="container mt-5">
@@ -7,4 +9,4 @@ return (
 </div>
 );
 }
-export default About;
+export default About; 
