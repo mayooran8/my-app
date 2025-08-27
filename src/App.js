@@ -4,19 +4,22 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Registration from './components/Registration';
 import About from './components/About';
+import UserList from "./components/UserList";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './App.css'; // Keep this if you have custom styles
+
+import './App.css'; 
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* This is where a navigation bar would go later */}
+       
         <Routes>
-          {/* Define which component to show for each URL path */}
           <Route path="/" element={<Home />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/about" element={<About />} />
+          <Route path="/users" element={<UserList />} />
         </Routes>
       </div>
     </Router>
@@ -24,3 +27,4 @@ function App() {
 }
 
 export default App;
+

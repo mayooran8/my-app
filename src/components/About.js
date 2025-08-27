@@ -1,5 +1,4 @@
 import React from 'react';
-// CURRENT CODE (causing error):
 import Registration from './About';
 function About() {
 return (

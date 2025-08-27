@@ -1,7 +1,7 @@
 import React from "react";
-// CURRENT CODE (causing error):
 import Registration from './Home';
 import { Link } from "react-router-dom";
+<Link to="/users" className="btn btn-outline-primary ms-2">View Users</Link>
 
 function Home() {
   return (
